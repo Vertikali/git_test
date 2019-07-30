@@ -1,14 +1,3 @@
-body
-{
-    background-color: #7fa5ec;
-}
-// любой комментарий для проверки функций Gitа в VSCode
-h1
-{
-    font-size: 30px;
-}
+@import url(reset.css);
+header, nav, footer, article, aside, section {display: block;}
 
-p
-{
-    color: #ffffff;
-}
