@@ -1,6 +1,6 @@
 .tabs {
     position: relative;
-    min-height: 200px; 
+    min-height: 2000px;
     clear: both;
     margin: 25px 0;
   }
@@ -28,6 +28,10 @@
     padding: 20px;
     border: 1px solid #ccc;
   }
+  .content img
+  {
+    height: 540px;
+  }
   [type=radio]:checked ~ label {
     background: white;
     border-bottom: 1px solid white;
@@ -36,3 +40,4 @@
   [type=radio]:checked ~ label ~ .content {
     z-index: 1;
   }
+  
