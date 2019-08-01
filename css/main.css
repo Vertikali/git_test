@@ -22,3 +22,18 @@ header, nav, footer, article, aside, section {display: block;}
     background-color: #db1515;
     color: white;
 }
+
+/* общее для всех страниц оформление*/
+body
+{
+    background-image: url('../images/322d40587.jpg');
+    background-color: #515152;
+}
+.basis
+{
+    width: 640px;
+    margin: 0 auto;
+    background-image: url('../images/metal-texture_(14).jpg');
+    background-color: #7b7d7e;
+    border: 5px solid #565657;
+}
