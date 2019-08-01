@@ -1,3 +1,16 @@
 @import url(reset.css);
 header, nav, footer, article, aside, section {display: block;}
 
+/* источник кода кнопки Выход https://html5css.ru/howto/howto_css_round_buttons.php */
+.exit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
