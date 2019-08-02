@@ -3,9 +3,9 @@ header, nav, footer, article, aside, section {display: block;}
 
 /* источник кода кнопки Выход https://html5css.ru/howto/howto_css_round_buttons.php */
 .exit {
-    background-color: #bd1111;
+    background-color: #8f0c0c;
     border: 5px solid #640909;
-    color: rgba(255, 255, 255, 0.87);
+    color: #ffffff8a;
     padding: 17px 15px 3px 5px;
     text-align: center;
     text-decoration: none;
