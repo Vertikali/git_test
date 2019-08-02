@@ -1,5 +1,35 @@
 @import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
 header, nav, footer, article, aside, section {display: block;}
+
+h1
+{
+	font-family: 'Black Ops One', cursive;
+	font-size: 60px;
+	color: #b10707;
+}
+
+.nameplate
+{
+	background: url('../images/1380804593.jpg');
+	border: 1px solid #525252;
+	border-radius: 8px;
+	width: 56%;
+	height: 40px;
+	margin: 10px 0;
+	box-shadow: 1px 2px 0 0 #292929;
+	float: right;
+}
+
+h2
+{
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 20px;
+	color: #161616;
+	text-align: center;
+	padding: 12px;
+}
 
 /* источник кода кнопки Выход https://html5css.ru/howto/howto_css_round_buttons.php */
 .exit {
@@ -33,10 +63,15 @@ body
     background-image: url('../images/322d40587.jpg');
     background-color: #515152;
 }
+
 .basis
 {
     width: 640px;
     margin: 0 auto;
+}
+
+.dashboard
+{
     background-image: url('../images/metal-texture_(14).jpg');
     background-color: #7b7d7e;
     border: 5px solid #565657;
