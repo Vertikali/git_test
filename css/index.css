@@ -5,21 +5,29 @@
 /* блок оформления бегущей строки */
 .marquee 
 {
-    width:100%;
+    width:96%;
+    height: 30px;
     white-space:nowrap;
     overflow:hidden;
+    background-color: #000;
+    margin: 10px auto;
+    border-top: 4px solid #3d3d3d;
+    border-right: 4px solid #565657;
+    border-bottom: 4px solid #646466;
+    border-left: 4px solid #474747;
 }
 
 .marquee span 
 {
     color:#07b9b9;
-    font-size:25px;
+    font-size:22px;
     font-family: 'Press Start 2P', cursive;
     font-weight: bold;
     display:inline-block;
     padding-left:100%;
     -webkit-animation: marquee 20s infinite linear;
     animation: marquee 20s infinite linear;
+    line-height: 1.4;
 }
 
 @-webkit-keyframes marquee 
@@ -49,48 +57,4 @@
     box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
     background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
     color: #a00;
-}
-
-.adventure-poster
-{
-    width: 100%;
-    height: 100px;
-    background: url('../images/Dark_Rift_2012.jpg') no-repeat;
-}
-
-.poster-title
-{
-    width: 90%;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 10px;
-}
-
-.title1
-{
-    font-weight: bold;
-    font-size: 76px;
-    color: #f70b0b;
-    font-family: 'Yeseva One', cursive;
-    float: left;
-}
-
-.title2
-{
-    font-size: 38px;
-    color: #adadad;
-    float: right;
-    font-family: 'Yeseva One', cursive;
-    margin-top: 5px;
-}
-
-.title3
-{
-    font-weight: bold;
-    font-style: italic;
-    font-size: 16px;
-    color: #655db6;
-    font-family: 'Gabriela', serif;
-    float: right;
-    margin-top: 8px;
 }
