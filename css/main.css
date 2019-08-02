@@ -6,16 +6,20 @@ header, nav, footer, article, aside, section {display: block;}
     background-color: #8f0c0c;
     border: 5px solid #640909;
     color: #ffffff8a;
-    padding: 17px 15px 3px 5px;
+    padding: 4px 4px 4px 4px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 32px;
     font-weight: bold;
-    margin: 4px 2px;
+    margin: 10px 2px;
     border-radius: 50px;
-    width: 35px;
-    height: 35px;
+    width: 26px;
+    height: 26px;
+    float: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.6;
 }
 .exit:hover
 {
@@ -36,4 +40,6 @@ body
     background-image: url('../images/metal-texture_(14).jpg');
     background-color: #7b7d7e;
     border: 5px solid #565657;
+    border-radius: 10px;
+    box-shadow: 1px 3px 0 0 #313131;
 }

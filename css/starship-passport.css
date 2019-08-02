@@ -13,19 +13,20 @@ h1
 	background: url('../images/1380804593.jpg');
 	border: 1px solid #525252;
 	border-radius: 8px;
-	width: 50%;
-	height: 30px;
+	width: 56%;
+	height: 40px;
 	margin: 10px 0;
 	box-shadow: 1px 2px 0 0 #292929;
+	float: right;
 }
 
 h2
 {
 	font-family: 'Rubik Mono One', sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	color: #161616;
 	text-align: center;
-	padding: 8px;
+	padding: 12px;
 	/*text-shadow: 1px 1px 0 #252525;*/
 }
 
