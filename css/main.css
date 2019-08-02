@@ -17,7 +17,6 @@ h1
 	border-radius: 8px;
 	width: 56%;
 	height: 40px;
-	margin: 10px 0;
 	box-shadow: 1px 2px 0 0 #292929;
 	float: right;
 }
@@ -31,6 +30,13 @@ h2
 	padding: 12px;
 }
 
+.dashboard-up
+{
+    width:96%;
+    height: 44px;
+    margin: 10px auto;
+}
+
 /* источник кода кнопки Выход https://html5css.ru/howto/howto_css_round_buttons.php */
 .exit {
     background-color: #8f0c0c;
@@ -42,11 +48,9 @@ h2
     display: inline-block;
     font-size: 32px;
     font-weight: bold;
-    margin: 10px 2px;
     border-radius: 50px;
     width: 26px;
     height: 26px;
-    float: left;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 0.6;
