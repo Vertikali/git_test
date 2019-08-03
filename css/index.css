@@ -59,10 +59,6 @@
     box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
     background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
     color: rgb(0, 170, 43);
-    /*border-top: 4px solid #ffffff;
-    border-right: 4px solid #babdb2;
-    border-bottom: 4px solid #fcfff4;
-    border-left: 4px solid #babdb2;*/
 }
 
 .keyboard
