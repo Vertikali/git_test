@@ -82,3 +82,11 @@ body
     border-radius: 10px;
     box-shadow: 1px 3px 0 0 #313131;
 }
+
+.trough
+{
+    border-top: 4px solid #2c2c2c;
+    border-left: 4px solid #484849;
+    border-right: 4px solid #636363;
+    border-bottom: 4px solid #767677;
+}

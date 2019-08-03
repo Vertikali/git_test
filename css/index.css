@@ -8,10 +8,6 @@
     white-space:nowrap;
     overflow:hidden;
     background-color: #000;
-    border-top: 4px solid #3d3d3d;
-    border-right: 4px solid #565657;
-    border-bottom: 4px solid #646466;
-    border-left: 4px solid #474747;
     height: 30px;
 }
 

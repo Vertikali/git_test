@@ -5,6 +5,7 @@
 	position: relative;
 	width: 620px;
 	height: 364px;
+	margin: 10px auto;
 }
 
 .picture-bg
@@ -23,7 +24,6 @@
 	top: 20px;
 	left: -260px;
 	z-index: 2;
-    /*transition: left 3.5s cubic-bezier(0.995, 0.005, 1.000, 0.675);*/
     transition: left 30s linear;
 }
 
