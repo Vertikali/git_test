@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Marck+Script|Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pangolin&display=swap');
 
 /* блок оформления бегущей строки */
 .marquee 
@@ -66,7 +67,7 @@
 
 .keyboard
 {
-    width: 60%;
+    width: 59%;
     margin: 10px auto;
     border: 5px solid #565657;
 }
@@ -78,4 +79,36 @@
 	color: #161616;
 	text-align: center;
 	padding: 12px;
+}
+
+footer
+{
+    padding: 20px 0px;
+    font-family: 'Pangolin', cursive;
+    font-size: 20px;
+    /*font-weight: bold;*/
+    color: #0a0099;
+}
+
+.autograph
+{
+    margin-left: 53%;
+    width: 30%;
+    height: 50px;
+}
+
+.autograph .ag2
+{
+    display: none;
+}
+
+.autograph a
+{
+    text-decoration: none;
+    color: #0a0099;
+}
+
+.autograph:hover .ag2
+{
+    display: block;
 }
