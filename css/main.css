@@ -10,6 +10,26 @@ h1
 	color: #b10707;
 }
 
+h2
+{
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 20px;
+	color: #161616;
+	text-align: center;
+	padding: 12px;
+}
+
+h3
+{
+    font-size: 30px;
+}
+
+p
+{
+    font-size: 22px;
+    margin-top: 16px;
+}
+
 .nameplate
 {
 	background: url('../images/1380804593.jpg');
@@ -21,14 +41,7 @@ h1
 	float: right;
 }
 
-h2
-{
-	font-family: 'Rubik Mono One', sans-serif;
-	font-size: 20px;
-	color: #161616;
-	text-align: center;
-	padding: 12px;
-}
+
 
 .dashboard-up
 {
