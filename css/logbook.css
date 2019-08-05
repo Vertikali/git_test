@@ -14,6 +14,7 @@
     color: green;
     cursor: pointer;
     display: inline-block; 
+    margin-top: 15px;
 }
 /* вид текста label при активном переключателе */
 .hide:checked + label {
@@ -27,16 +28,17 @@
     -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
     -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
     box-shadow: inset 3px 3px 10px #7d8e8f;
-    padding: 10px; 
+    padding: 10px;
 }
 
 /* demo контейнер */
-.demo {
-    margin: 5% 10%;
-    background: #efefef;
-}
-
 .demo 
 {
+    width: 620px;
+	height: 364px;
+	margin: 10px auto;
+    background: #efefef;
+    overflow: auto;
     font-family: 'Marck Script', cursive;
+    font-size: 26px;
 }
