@@ -23,11 +23,13 @@
   {
     background: #eee;
     padding: 10px;
-    border: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
     margin-left: -1px;
     position: relative;
     left: 1px;
-    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 2px 1px rgba(2, 2, 2, 0.2);
   }
   .tab [type=radio] 
   {
@@ -42,8 +44,7 @@
     bottom: 0;
     padding: 20px;
     border: 1px solid #ccc;
-    box-shadow: 4px 4px 2px 1px rgba(2, 2, 2, 0.2);
-    z-index: 3;
+    box-shadow: 4px 4px 2px 1px rgba(32, 32, 32, 0.2);
   }
   .content img
   {
@@ -59,7 +60,7 @@
   }
   [type=radio]:checked ~ label ~ .content 
   {
-    z-index: 1;
+    z-index: 3;
   }
   
 .diaphanous
