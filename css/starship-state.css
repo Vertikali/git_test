@@ -1,7 +1,16 @@
+.filing-cabinet
+{
+  width: 96%;
+  height: 500px;
+  position: relative;
+  clear: both;
+  margin: 10px auto;
+}
+
 .tabs
   {
     position: relative;
-    height: 500px;
+    height: 490px;
     clear: both;
     width:96%;
     margin: 25px auto;
@@ -18,6 +27,7 @@
     margin-left: -1px;
     position: relative;
     left: 1px;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
   }
   .tab [type=radio] 
   {
@@ -32,6 +42,8 @@
     bottom: 0;
     padding: 20px;
     border: 1px solid #ccc;
+    box-shadow: 4px 4px 2px 1px rgba(2, 2, 2, 0.2);
+    z-index: 3;
   }
   .content img
   {
@@ -59,14 +71,14 @@
   height: 81%;
   /*background-color: rgba(218, 214, 2, 0.308);*/
   background: linear-gradient(to top, #fefcea48, #f1db3646);
-  z-index: 3;
+  z-index: 4;
   border-top: 2px solid #f1db367e;
 }
 
 .frame1
 {
   position: absolute;
-  z-index: 4;
+  z-index: 5;
   top: 90px;
   left: 0;
   width: 15px;
@@ -77,24 +89,30 @@
 .frame2
 {
   position: absolute;
-  z-index: 4;
+  z-index: 5;
   top: 90px;
   right: 0;
   width: 15px;
   height: 82%;
   background-color: #565657;
-  border-right: 4px solid #484849;
+  border-right: 4px solid #373738;
 }
 .frame3
 {
   position: absolute;
-  z-index: 4;
+  z-index: 5;
   bottom: 0;
   left: 0;
   width: 98.7%;
   height: 15px;
   background-color: #565657;
   border-left: 4px solid #636363;
-  border-bottom: 4px solid #2c2c2c;
-  border-right: 4px solid #484849;
+  border-bottom: 4px solid #1a1a1a;
+  border-right: 4px solid #373738;
+}
+
+p
+{
+    font-size: 22px;
+    margin-top: 16px;
 }
