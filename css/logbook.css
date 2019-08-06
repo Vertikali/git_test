@@ -32,11 +32,10 @@
 }
 
 /* demo контейнер */
-.demo 
+.roll-of-text 
 {
     width: 620px;
 	height: 364px;
-	margin: 10px auto;
     background: #efefef;
     overflow: auto;
     font-family: 'Marck Script', cursive;

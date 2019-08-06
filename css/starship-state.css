@@ -1,10 +1,9 @@
-.filing-cabinet
+.file-cabinet
 {
-  width: 96%;
+  width: 620px;
   height: 500px;
   position: relative;
   clear: both;
-  margin: 10px auto;
 }
 
 .tabs

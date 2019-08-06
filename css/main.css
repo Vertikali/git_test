@@ -37,17 +37,19 @@ h3
 	float: right;
 }
 
-
-
-.dashboard-up
+.grid-dashboard
 {
-    width:96%;
-    height: 44px;
     margin: 10px auto;
 }
 
+.dashboard-top
+{
+    width: 620px;
+    height: 44px;
+}
+
 /* источник кода кнопки Выход https://html5css.ru/howto/howto_css_round_buttons.php */
-.exit {
+.exit-button {
     background-color: #8f0c0c;
     border: 5px solid #640909;
     color: #ffffff8a;
@@ -63,10 +65,9 @@ h3
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 0.6;
-    /*box-shadow: 1px 1px 0 2px #2c2c2c;*/
     box-shadow: 4px 4px 2px 1px rgba(32, 32, 32, 0.438);
 }
-.exit:hover
+.exit-button:hover
 {
     background-color: #db1515;
     color: white;
@@ -86,13 +87,14 @@ body
     margin: 0 auto;
 }
 
-.dashboard
+.device-body
 {
     background-image: url('../images/metal-texture_(14).jpg');
     background-color: #7b7d7e;
     border: 5px solid #565657;
     border-radius: 10px;
     box-shadow: 1px 3px 0 0 #313131;
+    /*padding: 10px;*/
 }
 
 .trough

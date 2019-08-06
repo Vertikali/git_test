@@ -1,11 +1,10 @@
 /* анимированная картинка изображающая звездолёт на космической орбите */
-.wrapper
+.starship-demonstrator
 {
 	overflow: hidden;
 	position: relative;
 	width: 620px;
 	height: 364px;
-	margin: 10px auto;
 }
 
 .picture-bg
@@ -27,7 +26,7 @@
     transition: left 30s linear;
 }
 
-.wrapper:hover .picture-sub
+.starship-demonstrator:hover .picture-sub
 {
     left: 280px;
     transition: left 1.5s cubic-bezier(0.000, 1.005, 0.675, 1.000);

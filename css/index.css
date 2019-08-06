@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Pangolin&display=swap');
 
 /* блок оформления бегущей строки */
-.marquee 
+.text-display
 {
     white-space:nowrap;
     overflow:hidden;
@@ -12,7 +12,7 @@
     height: 30px;
 }
 
-.marquee span 
+.text-display span 
 {
     color:#07b9b9;
     font-size:22px;
@@ -20,17 +20,17 @@
     font-weight: bold;
     display:inline-block;
     padding-left:100%;
-    -webkit-animation: marquee 15s infinite linear;
-    animation: marquee 15s infinite linear;
+    -webkit-animation: text-display 15s infinite linear;
+    animation: text-display 15s infinite linear;
     line-height: 1.4;
 }
 
-@-webkit-keyframes marquee 
+@-webkit-keyframes text-display 
 {
     0%{-webkit-transform: translate(0, 0);}
     100%{-webkit-transform: translate(-100%, 0);}
 }
-@keyframes marquee 
+@keyframes text-display 
 {
     0%{transform: translate(0, 0);}
     100%{transform: translate(-100%, 0)}
@@ -64,7 +64,7 @@
 .keyboard
 {
     width: 59%;
-    margin: 10px auto;
+    /*margin: 10px auto;*/
     border: 5px solid #565657;
 }
 
