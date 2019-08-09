@@ -38,8 +38,16 @@
 
 /* регулируемый ползунок параметров звездолёта */
 /*источник кода ползунка https://html5css.ru/howto/howto_js_rangeslider.php */
+/* Ширина и высота наружного контейнера */
 .slidecontainer 
-{ width: 100%; } /* Ширина наружного контейнера */
+{
+    width: 620px;
+    height: 25px;
+}
+
+/* убрал стандартные отступы */
+.slidecontainer input 
+{ margin: 0; }
 
 /* Сам ползунок */
 .slider 
@@ -48,11 +56,11 @@
     appearance: none;
     width: 100%; /* Полная ширина */
     height: 25px; /* Указанная высота */
-    background: #d3d3d3; /* Серый фон */
+    background: #202020; /* Серый фон */
     outline: none; /* Удалить контур */
-    opacity: 0.7; /* Установить прозрачность (для эффектов наведения мыши при наведении) */
-    -webkit-transition: .2s; /* 0.2 секунды перехода при наведении */
-    transition: opacity .2s;
+    /*opacity: 0.7; /* Установить прозрачность (для эффектов наведения мыши при наведении) */
+    /*-webkit-transition: .2s; /* 0.2 секунды перехода при наведении */
+    /*transition: opacity .2s;*/
 }
 
 /* Эффекты наведения мыши */
@@ -66,13 +74,21 @@
     appearance: none;
     width: 25px; /* Установите определенную ширину ручки ползунка */
     height: 25px; /* Высота ручки ползунка */
-    background: #4CAF50; /* Зеленый фон */
+    background: #565657; /* Зеленый фон */
     cursor: pointer; /* Курсор при наведении */
+    border-top: 4px solid #474747;
+    border-right: 4px solid #333;
+    border-bottom: 4px solid #292929;
+    border-left: 4px solid #333;
 }
 .slider::-moz-range-thumb 
 {
     width: 25px; /* Установите определенную ширину ручки ползунка */
     height: 25px; /* Высота ручки ползунка */
-    background: #4CAF50; /* Зеленый фон */
+    background: #565657; /* Зеленый фон */
     cursor: pointer; /* Курсор при наведении */
+    border-top: 4px solid #474747;
+    border-right: 4px solid #333;
+    border-bottom: 4px solid #292929;
+    border-left: 4px solid #333;
 }
