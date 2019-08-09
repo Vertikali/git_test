@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
 
 /* скрываем чекбоксы и блоки с содержанием */
-.hide {
-    display: none; 
-}
-.hide + label ~ div{
-    display: none;
-}
+.hide 
+{ display: none; }
+.hide + label ~ div 
+{ display: none; }
+
 /* оформляем текст label */
-.hide + label {
+.hide + label 
+{
     border-bottom: 1px dotted green;
     padding: 0;
     color: green;
@@ -16,13 +16,17 @@
     display: inline-block; 
     margin-top: 15px;
 }
+
 /* вид текста label при активном переключателе */
-.hide:checked + label {
+.hide:checked + label 
+{
     color: red;
     border-bottom: 0;
 }
+
 /* когда чекбокс активен показываем блоки с содержанием  */
-.hide:checked + label + div {
+.hide:checked + label + div 
+{
     display: block; 
     background: #efefef;
     -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
@@ -31,11 +35,11 @@
     padding: 10px;
 }
 
-/* demo контейнер */
+/* контейнер рулона бортового журнала */
 .roll-of-text 
 {
     width: 620px;
-	height: 364px;
+    height: 364px;
     background: #efefef;
     overflow: auto;
     font-family: 'Marck Script', cursive;

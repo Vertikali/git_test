@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Gabriela&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Pangolin&display=swap');
 
-/* блок оформления бегущей строки */
-.text-display
+/* оболочка оформления бегущей строки */
+.text-display 
 {
     white-space:nowrap;
     overflow:hidden;
@@ -12,6 +12,7 @@
     height: 30px;
 }
 
+/* стиль текста бегущей строки */
 .text-display span 
 {
     color:#07b9b9;
@@ -20,11 +21,12 @@
     font-weight: bold;
     display:inline-block;
     padding-left:100%;
-    -webkit-animation: text-display 15s infinite linear;
-    animation: text-display 15s infinite linear;
+    -webkit-animation: text-display 15s infinite linear; /* параметры смещения текста */
+    animation: text-display 15s infinite linear; /* параметры смещения текста */
     line-height: 1.4;
 }
 
+/* крайние кадры смещения текста */
 @-webkit-keyframes text-display 
 {
     0%{-webkit-transform: translate(0, 0);}
@@ -38,7 +40,7 @@
 
 /* блок оформления кнопок */
 /* источник кода кнопок http://htmlbook.ru/practical/ssylka-kak-knopka */
-.transition-button
+.transition-button 
 {
     border: 5px solid #333; /* Рамка */
     display: inline-block;
@@ -54,6 +56,7 @@
     border-left: 4px solid #333;
 }
 
+/* при наведении указателя мыши меняется оформление кнопок */
 .transition-button:hover 
 {
     box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
@@ -61,23 +64,25 @@
     color: rgb(0, 170, 43);
 }
 
-.keyboard
+/* оболочка клавиатуры */
+.keyboard 
 {
     width: 59%;
-    /*margin: 10px auto;*/
     border: 5px solid #565657;
 }
 
-.keyboard a
+/* стилизация названий клавиш клавиатуры */
+.keyboard a 
 {
-	font-family: 'Rubik Mono One', sans-serif;
-	font-size: 20px;
-	color: #161616;
-	text-align: center;
-	padding: 12px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 20px;
+    color: #161616;
+    text-align: center;
+    padding: 12px;
 }
 
-footer
+/* подвал страницы */
+footer 
 {
     padding: 20px 0px;
     font-family: 'Pangolin', cursive;
@@ -86,25 +91,25 @@ footer
     color: #0a0099;
 }
 
-.autograph
+/* параметры контактных данных */
+.autograph 
 {
     margin-left: 53%;
     width: 30%;
     height: 50px;
 }
 
-.autograph .ag2
-{
-    display: none;
-}
+/* скрыть эл.адрес */
+.autograph .ag2 
+{ display: none; }
 
-.autograph a
+/* стиль оформления эл.адреса */
+.autograph a 
 {
     text-decoration: none;
     color: #0a0099;
 }
 
-.autograph:hover .ag2
-{
-    display: block;
-}
+/* при наведении мыши появляется эл.адрес */
+.autograph:hover .ag2 
+{ display: block; }
